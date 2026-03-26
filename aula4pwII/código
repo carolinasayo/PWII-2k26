@@ -1,0 +1,79 @@
+<DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício html5 moderno</title>
+
+    <style>
+        /* susbtituição das tags <font>, <basefont> e atributos 'color','size' e 'face' */
+    body {
+        font-family: arial, sans-serif;
+        color: #333333;
+        line-height: 1.6;
+        margin: 40px auto;
+        max-width: 800px;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+
+    .lista-quadrada {
+        list-style-type: square;
+    }
+
+    /* susbtitui a tag <hr noshade>. agora controlamos a linha 100% pelo css */
+    .linha-divisoria {
+        border: 0;
+        border-top: 2px solid #007bff; /* linha azul */
+        margin: 30px 0;
+    }
+
+    /* estilo para aprimorar a estética */
+    figcaption {
+        font-size: 0.9em;
+        color: #666;
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>meu artigo moderno haha</h1>
+            <a href="#conclusao">pular direto para a conclusão</a>
+    </nav>
+    </header>
+
+<main>
+    <section>
+        <h2>o que aprendemos hoje?</h2>
+        <p>o html5 possui como foco a <strong>semântica</strong>. deixamos a apresentação visual para o CSS.</p>
+    <hr class="linha-divisoria">
+
+    <section>
+        <h2>um exemplo de imagem a seguir</h2>
+        <figure> 
+            <img src="https://interd.net.br/wp-content/uploads/2024/05/FENDA315_23.03@PirukaPhotos-3649-1-850x560.jpg" alt="chococornudos">
+            <figcaption>figura 1: exemplo de imagem com legenda decente.</figcaption>
+        </figure>
+    </section>
+    <section id="conclusao">
+        <h2>conclusão</h2>
+        <p>a web ficou muito mais organizada!</p>
+
+        <p>quer saber mais? <a href="https://www.google.br" target="_blank">busque no google.</a>.</p>
+    </section>
+    </section>
+</main>
+<footer>carolina sayo que está apaixonadamente triste por ninguém - camargo aranha - 2026</footer>
+</body>
+</html>
