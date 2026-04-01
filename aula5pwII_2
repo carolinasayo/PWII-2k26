@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS moderno</title>
+</head>
+<style>
+    body {
+        background-color: #808080;
+        background-color: url('https://screenrant.com/final-fantasy-vii-areas-casuals-no-idea');
+        font-family: Arial, sans-serif;
+    }
+
+    .texto-azul {
+        color: rgb(0, 11, 128); /*Regra específica solicitada */
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    table {
+        border: 2px solid black;
+        border-collapse: collapse; /* Unindo as bordas */
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    table td {
+        border: 1px solid black; /* Bordas ficam juntas pelo collapse */
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        border: 3px solid #000;
+    }
+
+    /* Simulação moderna do char/charoff para números */
+    .coluna-numerica {
+        text-align: right;
+        font-family: 'Courier New', monospace;
+    }
+</style>
+
+<body>
+    <div style="text-align: center;">
+        <p class="texto-azul">Status do personagem: Sephiroth</p>
+
+        <table>
+            <tr>
+                <td colspan="2">
+                    <span class="texto-azul">Ele tem só uma asa!</span>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <img src="https://ffvii.square-enix-games.com/en-us/games/rebirth/characters/sephiroth" border="3" alt="sefirote">
+                </td>
+                <td align="char" char=".">
+                   status: assustador
+                    obsessão: ainda sim é o cloud strife
+                    maluco: provavelmente!!!
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
